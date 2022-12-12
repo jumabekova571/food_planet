@@ -1,0 +1,12 @@
+.button{
+  cursor: pointer;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 100px;
+  padding: 12px 35px;
+  color: #FFF;
+}
+
+.button.secondary{
+  background-color: var(--color-secondary);
+}

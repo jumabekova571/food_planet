@@ -1,0 +1,6 @@
+.footer {
+  background-color: var(--color-secondary);
+  padding: 3.5rem 0;
+  display: flex;
+  color: #FFF;
+}

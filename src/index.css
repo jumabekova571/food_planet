@@ -1,0 +1,23 @@
+body {
+  --color-primary: #FF583E;
+  --color-dark: #1D3130;
+  --color-secondary: #254F4C;
+
+  font-family: "Roboto", sans-serif;
+  color: var(--color-dark);
+
+}
+
+a {
+  cursor: pointer;
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+a.active {
+  color: var(--color-primary);
+}

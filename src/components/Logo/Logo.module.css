@@ -1,0 +1,36 @@
+.logo,
+.logoWhite {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  --logo-color: var(--color-secondary);
+  --logo-sub-color: var(--color-dark);
+}
+
+.logoWhite {
+  --logo-color: #FFF;
+  --logo-sub-color: #FFF;
+}
+
+.logoImage {
+  width: 32px;
+  height: 32px;
+}
+
+.logoTitle {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.logoSubtitle {
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--logo-sub-color);
+}
