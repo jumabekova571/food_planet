@@ -17,6 +17,7 @@ function App() {
       <div className="container">
         <Hero />
         <NewProductsSection />
+        <div className="mt-4" />
         <ProductsSection />
         <AboutUsSection />
         <ReviewsSection />
