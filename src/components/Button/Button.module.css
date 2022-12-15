@@ -1,12 +1,38 @@
-.button{
+.button {
   cursor: pointer;
-  background-color: var(--color-primary);
   border: none;
   border-radius: 100px;
   padding: 12px 35px;
-  color: #FFF;
 }
 
-.button.secondary{
+.button.primary {
+  color: #FFF;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+.button.primary:hover{
+  color: var(--color-primary);
+  background-color: transparent;
+}
+
+.button.outlined {
+  color: var(--color-primary);
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+}
+
+.button.outlined:hover {
+  color: #FFF;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.button.secondary {
+  color: #FFF;
   background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+}
+.button.secondary:hover{
+  color: var(--color-secondary);
+  background-color: transparent;
 }

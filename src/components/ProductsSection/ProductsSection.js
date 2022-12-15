@@ -9,6 +9,7 @@ import pizza5 from '../../assets/img/pizza/pizza-5.png'
 import pizza6 from '../../assets/img/pizza/pizza-6.png'
 import pizza7 from '../../assets/img/pizza/pizza-7.png'
 import pizza8 from '../../assets/img/pizza/pizza-8.png'
+import Button from '../Button/Button'
 
 const items = [
   {
@@ -95,6 +96,15 @@ const ProductsSection = () => {
         <SectionNavigation />
       </div>
 
+      <div className='d-flex justify-content-end gap-3 align-items-center mt-4'>
+        <span>Сортировать по: </span>
+        <select className='px-3 py-2' defaultValue={3}>
+          <option value={1}>По цене (сначало дешевле)</option>
+          <option value={2}>По цене (сначало дороже)</option>
+          <option value={3}>По дате создания</option>
+        </select>
+      </div>
+
       <div className='row'>
         {items.map(item => (
           <div
@@ -110,6 +120,12 @@ const ProductsSection = () => {
           </div>
         ))}
       </div>
+      <Button
+        className={"mt-4 mx-auto d-block"}
+        type="outlined"
+      >
+        Показать ещё
+      </Button>
     </div>
   )
 }

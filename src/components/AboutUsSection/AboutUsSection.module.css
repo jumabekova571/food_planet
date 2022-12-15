@@ -1,0 +1,9 @@
+.sectionTitle {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+
+  margin: 2rem 0;
+}
